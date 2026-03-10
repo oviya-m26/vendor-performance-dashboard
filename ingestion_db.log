@@ -1,0 +1,118 @@
+2026-03-08 11:25:53,546 - INFO - Ingesting begin_inventory.csv in db
+2026-03-08 11:25:59,405 - INFO - Ingesting end_inventory.csv in db
+2026-03-08 11:26:15,725 - INFO - Ingesting purchases.csv in db
+2026-03-08 11:27:15,112 - INFO - Ingesting purchase_prices.csv in db
+2026-03-08 11:27:36,999 - INFO - Ingesting sales.csv in db
+2026-03-08 11:32:42,391 - INFO - Ingesting vendor_invoice.csv in db
+2026-03-08 11:32:42,531 - INFO - -------------Ingestion Complete--------------
+2026-03-08 11:32:42,532 - INFO - 
+total time taken: 6.825947992006937 minutes
+2026-03-08 11:39:03,209 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-08 11:39:03,214 - WARNING - No such comm: e3c738e1-bf80-48e9-a317-ddd0c203b675
+2026-03-08 11:39:03,214 - DEBUG - Current comms: []
+2026-03-08 11:40:42,690 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-08 11:40:42,693 - WARNING - No such comm: 82df34a8-d73a-484a-8427-cd89b98b0590
+2026-03-08 11:40:42,693 - DEBUG - Current comms: []
+2026-03-08 11:56:41,009 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-08 11:56:41,012 - WARNING - No such comm: a69bd487-5dc3-4796-b858-7a0729caf6b8
+2026-03-08 11:56:41,013 - DEBUG - Current comms: []
+2026-03-08 11:57:45,964 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-08 11:57:45,968 - WARNING - No such comm: dfbdf32f-0b0b-4db0-8e63-a87b8cfed676
+2026-03-08 11:57:45,969 - DEBUG - Current comms: []
+2026-03-08 12:46:12,575 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-08 12:46:12,579 - WARNING - No such comm: 6c891b27-4ae0-43b2-881c-cbd7b4d23ff7
+2026-03-08 12:46:12,579 - DEBUG - Current comms: []
+2026-03-08 12:55:57,043 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-08 12:55:57,046 - WARNING - No such comm: 6081ea74-d1d9-45d7-b540-3ff22e10b481
+2026-03-08 12:55:57,047 - DEBUG - Current comms: []
+2026-03-08 15:04:29,383 - ERROR - No such comm target registered: jupyter.widget.control
+2026-03-08 15:04:29,391 - WARNING - No such comm: 9055c3f5-6b50-44ee-a319-310e0f9c738d
+2026-03-08 15:04:29,391 - DEBUG - Current comms: []
+2026-03-08 15:38:39,069 - INFO - Creating Vendor Summary Table....
+2026-03-08 15:40:46,348 - INFO - Creating Vendor Summary Table...
+2026-03-08 15:41:41,990 - INFO -    VendorNumber                   VendorName  Brand  PurchasePrice  \
+0          1128  BROWN-FORMAN CORP             1233          26.27   
+1          4425        MARTIGNETTI COMPANIES   3405          23.19   
+2         17035  PERNOD RICARD USA             8068          18.24   
+3          3960  DIAGEO NORTH AMERICA INC      4261          16.17   
+4          3960  DIAGEO NORTH AMERICA INC      3545          21.89   
+
+   ActualPrice Volume  TotalPurchaseQuantity  TotalPurchaseDollars  \
+0        36.99   1750                 145080            3811251.60   
+1        28.99   1750                 164038            3804041.22   
+2        24.99   1750                 187407            3418303.68   
+3        22.99   1750                 201682            3261197.94   
+4        29.99   1750                 138109            3023206.01   
+
+   TotalSalesQuantity  TotalSalesDollars  TotalSalesPrice  TotalExciseTax  \
+0            142049.0         5101919.51        672819.31       260999.20   
+1            160247.0         4819073.49        561512.37       294438.66   
+2            187140.0         4538120.60        461140.15       343854.07   
+3            200412.0         4475972.88        420050.01       368242.80   
+4            135838.0         4223107.62        545778.28       249587.83   
+
+   FreightCost  
+0     68601.68  
+1    144929.24  
+2    123780.22  
+3    257032.07  
+4    257032.07  
+2026-03-08 15:41:42,001 - INFO - Ingesting data...
+2026-03-08 15:41:42,080 - INFO - Completed
+2026-03-08 15:54:43,263 - INFO - Creating Vendor Summary Table...
+2026-03-08 15:55:39,171 - INFO -    VendorNumber                   VendorName  Brand  PurchasePrice  \
+0          1128  BROWN-FORMAN CORP             1233          26.27   
+1          4425        MARTIGNETTI COMPANIES   3405          23.19   
+2         17035  PERNOD RICARD USA             8068          18.24   
+3          3960  DIAGEO NORTH AMERICA INC      4261          16.17   
+4          3960  DIAGEO NORTH AMERICA INC      3545          21.89   
+
+   ActualPrice Volume  TotalPurchaseQuantity  TotalPurchaseDollars  \
+0        36.99   1750                 145080            3811251.60   
+1        28.99   1750                 164038            3804041.22   
+2        24.99   1750                 187407            3418303.68   
+3        22.99   1750                 201682            3261197.94   
+4        29.99   1750                 138109            3023206.01   
+
+   TotalSalesQuantity  TotalSalesDollars  TotalSalesPrice  TotalExciseTax  \
+0            142049.0         5101919.51        672819.31       260999.20   
+1            160247.0         4819073.49        561512.37       294438.66   
+2            187140.0         4538120.60        461140.15       343854.07   
+3            200412.0         4475972.88        420050.01       368242.80   
+4            135838.0         4223107.62        545778.28       249587.83   
+
+   FreightCost  
+0     68601.68  
+1    144929.24  
+2    123780.22  
+3    257032.07  
+4    257032.07  
+2026-03-08 15:55:39,179 - INFO - Ingesting data...
+2026-03-08 15:55:39,192 - INFO -    VendorNumber                VendorName  Brand  PurchasePrice  ActualPrice  \
+0          1128         BROWN-FORMAN CORP   1233          26.27        36.99   
+1          4425     MARTIGNETTI COMPANIES   3405          23.19        28.99   
+2         17035         PERNOD RICARD USA   8068          18.24        24.99   
+3          3960  DIAGEO NORTH AMERICA INC   4261          16.17        22.99   
+4          3960  DIAGEO NORTH AMERICA INC   3545          21.89        29.99   
+
+   Volume  TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  \
+0  1750.0                 145080            3811251.60            142049.0   
+1  1750.0                 164038            3804041.22            160247.0   
+2  1750.0                 187407            3418303.68            187140.0   
+3  1750.0                 201682            3261197.94            200412.0   
+4  1750.0                 138109            3023206.01            135838.0   
+
+   TotalSalesDollars  TotalSalesPrice  TotalExciseTax  FreightCost  \
+0         5101919.51        672819.31       260999.20     68601.68   
+1         4819073.49        561512.37       294438.66    144929.24   
+2         4538120.60        461140.15       343854.07    123780.22   
+3         4475972.88        420050.01       368242.80    257032.07   
+4         4223107.62        545778.28       249587.83    257032.07   
+
+   GrossProfit  ProfitMargin  StockTurnover  SalesToPurchaseRatio  
+0   1290667.91     25.297693       0.979108              1.338647  
+1   1015032.27     21.062810       0.976890              1.266830  
+2   1119816.92     24.675786       0.998575              1.327594  
+3   1214774.94     27.139908       0.993703              1.372493  
+4   1199901.61     28.412764       0.983556              1.396897  
+2026-03-08 15:55:39,318 - INFO - Completed
