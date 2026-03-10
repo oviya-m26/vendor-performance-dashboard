@@ -102,7 +102,7 @@ Insights:
 
 Vendor purchase contribution analysis helps identify which vendors dominate procurement spending.
 
-![Vendor Contribution](images/top_10_vendors.png)
+![Vendor Contribution](images/top_10_%20vendors.png)
 
 Key Insight:
 
