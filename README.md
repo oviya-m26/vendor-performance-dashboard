@@ -157,19 +157,6 @@ This analysis can help organizations:
 
 ---
 
-# Project Structure
-vendor-performance-dashboard
-│
-├── dashboard.pbix
-├── vendor_analysis.ipynb
-├── images
-│ ├── dashboard.png
-│ ├── confidence_interval_plot.png
-│ ├── scatter_plot.png
-│ └── top_10_vendors.png
-└── README.md
-
----
 
 # Note
 
